@@ -1,0 +1,41 @@
+  .easy-tooltip {
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    &.is-dark{
+      background: #333;
+      color: #fff;
+    }
+    &.is-light{
+      background: #fff;
+      border: 1px solid #303133;
+    }
+    &[data-popper-placement^='top'] .easy-tooltip_arrow {
+      bottom: -6px;
+      border-top-color: #333;
+    }
+    &[data-popper-placement^='bottom'] .easy-tooltip_arrow {
+      top: -6px;
+      border-bottom-color: #333;
+    }
+    &[data-popper-placement^='left'] .easy-tooltip_arrow {
+      right: -6px;
+      border-left-color: #333;
+    }
+    &[data-popper-placement^='right'] .easy-tooltip_arrow {
+      left: -6px;
+      border-right-color: #333;
+    }
+  }
+  .easy-tooltip-fade-leave-active {
+    transition: opacity .2s;
+  }
+
+  .easy-tooltip-fade-leave {
+    opacity: 1;
+  }
+
+  .easy-tooltip-fade-leave-to {
+    opacity: 0;
+  }

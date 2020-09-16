@@ -1,0 +1,95 @@
+/* link */
+.easy-link{
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+
+  &.is-underline:hover::after{
+    content: '';
+    height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #409eff;
+  }
+  &.is-disabled{
+    cursor: not-allowed;
+  }
+  &.easy-link-default{
+    color: #606266;
+    &:hover{
+      color: #409eff;
+      &::after {
+        border-color: #409eff;
+      }
+    }
+    &.is-disabled{
+      color: #c0c4cc;
+    }
+  }
+  &.easy-link-primary {
+    color: #409eff;
+    &:hover {
+      color: #66b1ff;
+      &::after {
+        border-color: #409eff;
+      }
+    }
+    &.is-disabled {
+      color: #a0cfff;
+    }
+  }
+  &.easy-link-success {
+    color: #67c23a;
+    &:hover {
+      color: #85ce61;
+      &::after {
+        border-color: #67c23a;
+      }
+    }
+    &.is-disabled {
+      color: #c0c4cc;
+    }
+  }
+  &.easy-link-warning {
+    color: #e6a23c;
+    &:hover {
+      color: #ebb563;
+      &::after {
+        border-color: #e6a23c;
+      }
+    }
+    &.is-disabled {
+      color: #f3d19e;
+    }
+  }
+  &.easy-link-danger {
+    color: #f56c6c;
+    &:hover {
+      color: #f78989;
+      &::after {
+        border-color: #f56c6c;
+      }
+    }
+    &.is-disabled {
+      color: #fab6b6;
+    }
+  }
+  &.easy-link-info {
+    color: #909399;
+    &:hover {
+      color: #a6a9ad;
+      &::after {
+        border-color: #909399;
+      }
+    }
+    &.is-disabled {
+      color: #c8c9cc;
+    }
+  }
+  [class*=fa-]+span{
+    margin-left: 5px;
+  }
+}
