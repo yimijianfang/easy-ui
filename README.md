@@ -25,3 +25,5 @@ UI预览页比较丑，先凑合着看吧，有时间再改版。欢迎交流
 - [x] button
 - [x] arrow
 - [x] tool-tip
+- [x] popover
+- [x] popconfirm

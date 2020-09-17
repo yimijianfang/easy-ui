@@ -78,7 +78,8 @@ export default {
   data(){
     return {
       ss: false,
-      visiable: false
+      visiable: false,
+      sss: true
     }
   },
   computed:{

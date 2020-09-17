@@ -1,0 +1,54 @@
+  .easy-popconfirm {
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    padding: 12px;
+    font-weight: normal;
+    min-width: 150px;
+    font-size: 14px;
+    .easy-popconfirm__main{
+      display: flex;
+      align-items: center;
+      .easy-popconfirm__icon{
+        margin-right: 5px;
+      }
+    }
+    .easy-popconfirm__action {
+      text-align: right;
+      margin: 0;
+    }
+    &[data-popper-placement^='top'] .easy-popconfirm_arrow {
+      bottom: -6px;
+      border-top-color: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    }
+    &[data-popper-placement^='bottom'] .easy-popconfirm_arrow {
+      top: -6px;
+      border-bottom-color: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    }
+    &[data-popper-placement^='left'] .easy-popconfirm_arrow {
+      right: -6px;
+      border-left-color: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    }
+    &[data-popper-placement^='right'] .easy-popconfirm_arrow {
+      left: -6px;
+      border-right-color: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    }
+  }
+  .easy-popconfirm-fade-leave-active {
+    transition: opacity .2s;
+  }
+
+  .easy-popconfirm-fade-leave {
+    opacity: 1;
+  }
+
+  .easy-popconfirm-fade-leave-to {
+    opacity: 0;
+  }

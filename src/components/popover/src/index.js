@@ -82,9 +82,6 @@ export default {
   },
   mounted: function(){
     console.log('mounted')
-    console.log(this.$el)
-    console.log(this.$slots.reference)
-    console.log(this.$slots.default)
     const button = this.referenceEl = (this.$slots.reference || this.$slots.default)[0].elm;
     this.$nextTick(()=>{
       this.popperEl = this.$refs.popper
@@ -121,7 +118,6 @@ export default {
         this.show()
       });
     });
-    console.log(hideEvents)
     hideEvents.forEach(event => {
       button.addEventListener(event, () => {
         this.expectedState = false
@@ -145,6 +141,7 @@ export default {
       this.pShow()
     },
     hide(){
+      console.trace()
       if (this.expectedState || this.trigger == "manual") return;
       this.pHide()
     },

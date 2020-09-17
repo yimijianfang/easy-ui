@@ -3,10 +3,14 @@ import {
   createPopper
 } from '@popperjs/core';
 import EasyArrow from "@/components/arrow"
+import EasyIcon from "@/components/icon"
+import EasyButton from "@/components/button"
 
 export default{
   components: {
-    EasyArrow
+    EasyArrow,
+    EasyIcon,
+    EasyButton
   },
   props: {
     content: {
@@ -170,7 +174,7 @@ export default{
       // 延迟隐藏逻辑
       this.hideTimeout = setTimeout(() => {
         this.showTip = false
-      }, this.hideAfter || this.closeDelay)
+      }, this.hideAfter || this.closeDelay || 0)
     }
   }
 }
