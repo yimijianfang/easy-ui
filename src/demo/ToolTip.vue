@@ -42,7 +42,7 @@
             右上
           </easy-button>
         </easy-tool-tip>
-        <easy-tool-tip content="右边的提示信息" placement="right">
+        <easy-tool-tip content="右边的提示信息" placement="right" effect="light">
           <easy-button>
             右边
           </easy-button>

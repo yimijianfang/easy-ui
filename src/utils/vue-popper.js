@@ -72,6 +72,7 @@ export default{
   },
   computed:{
     rPlacement: function () {
+      // return "bottom"
       let match = this.placement.match(/^([a-z])+/ig)
       if (match && match.length) {
         match = match[0]

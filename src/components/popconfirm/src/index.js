@@ -73,7 +73,6 @@ export default {
               direction = {
                 this.rPlacement
               }
-              isSingle
               data-popper-arrow
             >
             </easy-arrow>

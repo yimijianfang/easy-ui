@@ -14,18 +14,46 @@
     &[data-popper-placement^='top'] .easy-tooltip_arrow {
       bottom: -6px;
       border-top-color: #333;
+      border-bottom: 0;
+      border-top: 6px solid #333;
+      .easy-arrow_before{
+        border-top-color: #fff;
+        border-top: 5px solid #fff;
+        top: -6px !important;
+      }
     }
     &[data-popper-placement^='bottom'] .easy-tooltip_arrow {
       top: -6px;
       border-bottom-color: #333;
+      border-top: 0;
+      border-bottom: 6px solid #333;
+      .easy-arrow_before {
+        border-bottom-color: #fff;
+        border-bottom: 5px solid #fff;
+        bottom: -6px !important;
+      }
     }
     &[data-popper-placement^='left'] .easy-tooltip_arrow {
       right: -6px;
       border-left-color: #333;
+      border-right: 0;
+      border-left: 6px solid #333;
+      .easy-arrow_before {
+        border-left-color: #fff;
+        border-left: 5px solid #fff;
+        left: -6px !important;
+      }
     }
     &[data-popper-placement^='right'] .easy-tooltip_arrow {
       left: -6px;
       border-right-color: #333;
+      border-left: 0;
+      border-right: 6px solid #333;
+      .easy-arrow_before {
+        border-right-color: #fff;
+        border-right: 5px solid #fff;
+        right: -6px !important;
+      }
     }
   }
   .easy-tooltip-fade-leave-active {
