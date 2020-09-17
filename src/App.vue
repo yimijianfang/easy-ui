@@ -8,6 +8,7 @@
     <demo-button></demo-button>
     <demo-arrow></demo-arrow>
     <demo-tool-tip></demo-tool-tip>
+    <demo-popover></demo-popover>
     <!-- <vue-popper>
       <easy-button>
         默认按钮
@@ -23,6 +24,7 @@ import DemoLink from "@/demo/Link"
 import DemoTag from "@/demo/Tag"
 import DemoButton from "@/demo/Button"
 import DemoToolTip from "@/demo/ToolTip"
+import DemoPopover from "@/demo/Popover"
 import DemoArrow from "@/demo/Arrow"
 // import VuePopper from "@/components/popper/src/main"
 // import EasyButton from "@/components/button"
@@ -37,6 +39,7 @@ export default {
     DemoButton,
     DemoToolTip,
     DemoArrow,
+    DemoPopover,
     // VuePopper,
     // EasyButton
   },
