@@ -1,5 +1,5 @@
 <template>
-  <i class="easy-icon fa" :class="name">
+  <i class="easy-icon fa" :class="name" @click="$emit('click', $event)">
     <slot></slot>
   </i>
 </template>
