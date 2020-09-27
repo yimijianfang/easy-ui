@@ -4,7 +4,7 @@
     <demo-alert></demo-alert>
     <demo-icon></demo-icon>
     <demo-link></demo-link>
-    <demo-tag v-show="false"></demo-tag>
+    <demo-tag></demo-tag>
     <demo-button></demo-button>
     <demo-arrow></demo-arrow>
     <demo-tool-tip></demo-tool-tip>
