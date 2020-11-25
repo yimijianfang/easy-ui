@@ -10,6 +10,7 @@
     <demo-tool-tip></demo-tool-tip>
     <demo-popover></demo-popover>
     <demo-pop-confirm></demo-pop-confirm>
+    <demo-input></demo-input>
     <!-- <vue-popper>
       <easy-button>
         默认按钮
@@ -28,6 +29,7 @@ import DemoToolTip from "@/demo/ToolTip"
 import DemoPopover from "@/demo/Popover"
 import DemoPopConfirm from "@/demo/PopConfirm"
 import DemoArrow from "@/demo/Arrow"
+import DemoInput from "@/demo/Input"
 // import VuePopper from "@/components/popper/src/main"
 // import EasyButton from "@/components/button"
 
@@ -42,7 +44,8 @@ export default {
     DemoToolTip,
     DemoArrow,
     DemoPopover,
-    DemoPopConfirm
+    DemoPopConfirm,
+    DemoInput
     // VuePopper,
     // EasyButton
   },

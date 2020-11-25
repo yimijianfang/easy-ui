@@ -80,7 +80,6 @@ export default {
     
   },
   mounted: function(){
-    console.log('mounted')
     const button = this.referenceEl = (this.$slots.reference || this.$slots.default)[0].elm;
     this.$nextTick(()=>{
       this.popperEl = this.$refs.popper
@@ -140,7 +139,6 @@ export default {
       this.pShow()
     },
     hide(){
-      console.trace()
       if (this.expectedState || this.trigger == "manual") return;
       this.pHide()
     },

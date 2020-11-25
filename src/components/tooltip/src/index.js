@@ -76,7 +76,6 @@ export default {
     
   },
   mounted: function(){
-    console.log('mounted')
     const button = this.referenceEl = this.$el;
     this.$nextTick(()=>{
       this.popperEl = this.$refs.popper
