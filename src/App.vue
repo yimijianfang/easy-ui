@@ -11,6 +11,7 @@
     <demo-popover></demo-popover>
     <demo-pop-confirm></demo-pop-confirm>
     <demo-input></demo-input>
+    <demo-cascader></demo-cascader>
     <!-- <vue-popper>
       <easy-button>
         默认按钮
@@ -30,6 +31,7 @@ import DemoPopover from "@/demo/Popover"
 import DemoPopConfirm from "@/demo/PopConfirm"
 import DemoArrow from "@/demo/Arrow"
 import DemoInput from "@/demo/Input"
+import DemoCascader from "@/demo/Cascader"
 // import VuePopper from "@/components/popper/src/main"
 // import EasyButton from "@/components/button"
 
@@ -45,7 +47,8 @@ export default {
     DemoArrow,
     DemoPopover,
     DemoPopConfirm,
-    DemoInput
+    DemoInput,
+    DemoCascader
     // VuePopper,
     // EasyButton
   },
