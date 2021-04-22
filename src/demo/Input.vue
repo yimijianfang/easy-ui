@@ -2,7 +2,11 @@
   <div>
     <p class="title">input</p>
     <div class="box">
-      <easy-input></easy-input>
+      <easy-input v-model="input1" placeholder="请输入内容"></easy-input>
+      <easy-input v-model="input2" disabled placeholder="请输入内容"></easy-input>
+      <easy-input v-model="input3" clearable placeholder="请输入内容"></easy-input>
+      <easy-input v-model="input4" clearable placeholder="请输入内容"></easy-input>
+      <easy-input placeholder="请输入密码" v-model="input5" show-password></easy-input>
     </div>
     <hr>
   </div>
@@ -18,7 +22,13 @@ export default {
   },
   data(){
     return {
-      
+      input1:'',
+      input2:'',
+      input3:'',
+      input4:'',
+      input5:'',
+      input6:'',
+      input7:'',
     }
   },
   methods:{
